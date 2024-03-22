@@ -323,7 +323,7 @@ p a:hover {
   transition: background-color 0.5s ease;
 }
 
-.tableButton:active {
+.tableButton:hover {
   background-color: grey;
 }
 
@@ -354,3 +354,9 @@ tr {
   color: #000000;
 }
 
+.strickout {
+  text-decoration: line-through;
+  color: #a7a7a7;
+  font-size: 18pt;
+  pointer-events: none;
+}
