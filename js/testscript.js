@@ -1,5 +1,5 @@
 var size = 5;
-var texts = ["Died on Ship", "Mask", "Turret", "Suffocated", "Knight", "Eyeless dogs", "Left Behind", "Gave up", "Jester", "Doesn't heed warning", "Gravity", "Giant", "Bracken", "Harp Ghost", "Zeus Got em", "Landmine", "Rolling Giant", "Snare Bug", "Bunker Spider", "Hoarding Bug", "Ghost Girl", "Nut Cracker", "Dawsomegamer", "Vatic", "Coil Head", "Shrimp", "Immortal Snail", "The Fiend", "Mimic", "Demogorgon", "Shy Guy", "Slime", "Pressed the red button"];
+var texts = ["Died on Ship", "Mask", "Turret", "Suffocated", "Knight", "Eyeless dogs", "Left Behind", "Gave up", "Jester", "Doesn't heed warning", "Gravity", "Giant", "Bracken", "Harp Ghost", "Zeus Got em", "Landmine", "Rolling Giant", "Snare Bug", "Bunker Spider", "Hoarding Bug", "Ghost Girl", "Nut Cracker", "Dawsome gamer", "Vatic", "Coil Head", "Shrimp", "Immortal Snail", "The Fiend", "Mimic", "Demogorgon", "Shy Guy", "Slime", "Pressed the red button"];
 if (texts.length != 33) {
   alert('You should have exactly ' + (33) + ' texts defined!');
 }

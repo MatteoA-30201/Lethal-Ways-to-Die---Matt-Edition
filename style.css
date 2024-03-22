@@ -295,38 +295,6 @@ body {
   margin-right: -10px;
 }
 
-h1,
-p {
-  font-family: 'Source Sans 3', sans-serif;
-  font-weight: 700;
-  text-align: center;
-  color: #bbdaec;
-}
-
-p {
-  font-size: 20px;
-  margin: 30px;
-  padding: 30px;
-}
-
-h1 {  
-  padding-top: 10px;
-}
-
-hr {
-  background-color: rgb(96, 224, 255);
-  height: 4px;
-  width: 450px;
-  border-radius: 5px;
-  opacity: 0.8;
-
-}
-
-#header {
-  margin-bottom: 50px;
-  margin-top: 25px;
-}
-
 p a {
   color: #686868;
   font-weight: 500;
@@ -364,7 +332,40 @@ p a:hover {
   color: rgb(96, 224, 255);
 }
 
-#bingotable {
+@media (min-width: 850px) {
+  h1,
+  p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #bbdaec;
+  }
+
+  p {
+    font-size: 20px;
+    margin: 30px;
+    padding: 30px;
+  }
+
+  h1 {  
+    padding-top: 10px;
+  }
+
+  hr {
+    background-color: rgb(96, 224, 255);
+    height: 4px;
+    width: 450px;
+    border-radius: 5px;
+    opacity: 0.8;
+
+  }
+
+  #header {
+    margin-bottom: 50px;
+    margin-top: 25px;
+  }
+  
+  #bingotable {
   margin: 0 auto;
   text-align: center;
   width: 800px;
@@ -394,6 +395,73 @@ tr {
   border: 3px solid black;
   height: 125px;
   font-size: 30px;
+}
+}
+
+@media (max-width: 850px) {
+  h1,
+  p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #bbdaec;
+  }
+
+  p {
+    font-size: 20px;
+    margin: 30px;
+    padding: 30px;
+  }
+
+  h1 {  
+    padding-top: 10px;
+  }
+
+  hr {
+    background-color: rgb(96, 224, 255);
+    height: 4px;
+    width: 450px;
+    border-radius: 5px;
+    opacity: 0.8;
+
+  }
+
+  #header {
+    margin-bottom: 50px;
+    margin-top: 25px;
+  }
+
+  #bingotable {
+  margin: 0 auto;
+  text-align: center;
+  width: 345px;
+  height: 500px;
+  border-collapse: collapse;
+  background-color: #bbdaec;
+  table-layout: fixed;
+}
+
+td {
+  text-align: center;
+  border: 3px solid black;
+  width: 30px;
+  height: 20px;
+  font-size: 10px;
+}
+
+tr {
+  width: 75%;
+}
+
+.orange {
+  background: #1c1c1c;
+  color: rgb(96, 224, 255);
+  margin: 10px;
+  text-align: center;
+  border: 3px solid black;
+  height: 15px;
+  font-size: 18px;
+}
 }
 
 ::-webkit-scrollbar {
